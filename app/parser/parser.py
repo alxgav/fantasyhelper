@@ -22,5 +22,5 @@ async def response_data(report_type: int = 3, report_type_name: str = "Roster") 
             f"{DATA_DIR}/{filename}",
             index=False,
         )
-        return f" Data of file {filename} saved successfully to {DATA_DIR}"
+        return f" Data of file {filename} saved successfully "
     return f"Failed to fetch data status {response.status_code}"
